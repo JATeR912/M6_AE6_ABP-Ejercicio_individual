@@ -88,12 +88,7 @@ La página incluye:
 
 Esto asegura una experiencia clara y segura para el usuario.
 
-### 8. Limitación de Acceso al Sitio Administrativo
-El acceso a /admin/ está restringido exclusivamente a usuarios autenticados.
-
-Los usuarios no registrados son redirigidos automáticamente a la página de inicio de sesión.
-
-### 9. Manejo de Errores en el Modelo Auth
+### 8. Manejo de Errores en el Modelo Auth
 Se manejan correctamente errores de autenticación, tales como:
 
  - Contraseñas incorrectas.
@@ -102,7 +97,7 @@ Se manejan correctamente errores de autenticación, tales como:
 
  - Se muestran mensajes claros y amigables al usuario.
 
-### 10. Pruebas de Roles y Permisos
+### 9. Pruebas de Roles y Permisos
 Se ha verificado que cada tipo de usuario accede únicamente a las funcionalidades habilitadas por su grupo.
 
 Acciones no permitidas muestran el error 403, sin comprometer la seguridad del sistema.
