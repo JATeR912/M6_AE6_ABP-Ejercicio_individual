@@ -19,9 +19,10 @@ Se inicia el servidor de desarrollo con:
 
 ```bash
 python manage.py runserver
+```
 El panel de administración está disponible en:
 👉 http://127.0.0.1:8000/admin/
-```
+
 
 El superusuario puede iniciar sesión y administrar todos los modelos y configuraciones.
 
